@@ -23,6 +23,18 @@
   gap: 20px;
 }
 
+.nav-toggle-label {
+  <label for="nav-toggle" class="nav-toggle-label">☰</label>
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--text-light);
+} 
+
+
+.nav { display: none; }
+.nav-toggle:checked + .nav { display: flex; flex-direction: column; }
+
 .navbar li {
   list-style: none;
 }
@@ -49,6 +61,8 @@
   cursor: pointer;
   color: var(--text-light);
 }
+
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
