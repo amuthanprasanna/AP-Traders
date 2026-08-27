@@ -1,5 +1,5 @@
 import React from "react";
-import "./TaglineSection.css";
+import "./TagLineSection.css";
 
 function TaglineSection() {
   const taglines = [
