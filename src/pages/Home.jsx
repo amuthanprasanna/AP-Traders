@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../components/Banner.jsx";
-import TaglineSection from "../components/TaglineSection.jsx";
+import TagLineSection from "../components/TagLineSection.jsx";
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
       <Banner />
 
       {/* Tagline Highlights */}
-      <TaglineSection />
+      <TagLineSection />
 
       {/* Extra welcome text */}
       <section style={{ textAlign: "center", margin: "40px 20px" }}>

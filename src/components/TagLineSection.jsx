@@ -1,7 +1,7 @@
 import React from "react";
 import "./TagLineSection.css";
 
-function TaglineSection() {
+function TagLineSection() {
   const taglines = [
     { title: "Trusted Partner", desc: "Years of expertise in financial markets." },
     { title: "Secure Investments", desc: "Your money is safe with us." },
@@ -20,4 +20,4 @@ function TaglineSection() {
   );
 }
 
-export default TaglineSection;
+export default TagLineSection;
