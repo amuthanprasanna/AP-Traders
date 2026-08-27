@@ -1,0 +1,96 @@
+.footer {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  flex: 1 1 200px;
+}
+
+.footer-logo img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.footer-downloads {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-downloads img {
+  height: 40px;
+  cursor: pointer;
+}
+
+.footer-social {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-social a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-social a:hover {
+  color: var(--secondary-color);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid var(--secondary-color);
+  padding-top: 10px;
+  font-size: 0.9rem;
+}
+
+/* Dark mode */
+.footer.dark {
+  background-color: var(--dark-bg);
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-downloads {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footer-social {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+}
+
+.footer-downloads {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-downloads img {
+  height: 45px; /* badges are taller than logos */
+  cursor: pointer;
+}

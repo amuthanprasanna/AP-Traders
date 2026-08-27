@@ -1,0 +1,30 @@
+.service-detail {
+  background-color: var(--light-bg);
+  color: var(--text-dark);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.service-detail h3 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.service-detail p {
+  margin-bottom: 15px;
+}
+
+.service-detail ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.service-detail li {
+  margin-bottom: 8px;
+}
+.dark .service-detail {
+  background-color: #2f3640;
+  color: var(--text-light);
+}

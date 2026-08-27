@@ -1,0 +1,58 @@
+.signin-container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.signin-container h2 {
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signin-form input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.signin-form button {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signin-form button:hover {
+  background-color: var(--secondary-color);
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: green;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+.dark .signin-form input {
+  background-color: #2f3640;
+  color: var(--text-light);
+  border: 1px solid var(--secondary-color);
+}
+
+.dark .signin-form button {
+  background-color: var(--secondary-color);
+}

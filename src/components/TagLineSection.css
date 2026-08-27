@@ -1,0 +1,21 @@
+.tagline-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.tagline-card {
+  background-color: var(--secondary-color);
+  color: var(--text-light);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  flex: 1 1 250px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.tagline-card:hover {
+  transform: translateY(-5px);
+}

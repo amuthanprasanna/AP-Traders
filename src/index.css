@@ -1,0 +1,87 @@
+:root {
+  --primary-color: #0a3d62; /* Dark Blue */
+  --secondary-color: #f39c12; /* Orange */
+  --light-bg: #ffffff;
+  --dark-bg: #1e272e;
+  --text-light: #ffffff;
+  --text-dark: #2f3640;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--light-bg);
+  color: var(--text-dark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Light mode defaults already exist, now add dark mode overrides */
+
+.dark {
+  background-color: var(--dark-bg);
+  color: var(--text-light);
+}
+
+.dark a {
+  color: var(--secondary-color);
+}
+
+.dark .service-card {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+}
+
+.dark .whyus-card {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+}
+
+.dark .contact-info {
+  background-color: var(--primary-color);
+}
+
+.dark .contact-form input,
+.dark .contact-form textarea {
+  background-color: #2f3640;
+  color: var(--text-light);
+  border: 1px solid var(--secondary-color);
+}
+
+.dark .signin-form input {
+  background-color: #2f3640;
+  color: var(--text-light);
+  border: 1px solid var(--secondary-color);
+}
+/* Typography */
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3 {
+  margin: 0 0 15px;
+  font-weight: 600;
+}
+
+/* Paragraphs */
+p {
+  margin: 0 0 15px;
+}
+
+/* Sections */
+section {
+  margin: 40px 20px;
+}
