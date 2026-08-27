@@ -19,8 +19,6 @@ function Header() {
         ☰
       </div>
 
-  
-
       <nav className={`navbar ${menuOpen ? "open" : ""}`}>
         <ul>
           <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
